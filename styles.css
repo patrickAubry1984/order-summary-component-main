@@ -1,0 +1,126 @@
+
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%, .9);
+    
+    font-family: Red Hat Display;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.popup {
+    background-color: hsl(225, 100%, 98%);    
+    height: auto;
+    width: 100%; 
+    max-width: 35rem;   
+    border-radius: 1rem;    
+    margin: auto;
+    
+    @media (max-width: 600px){
+        .container{
+            width: 280px;
+            height: 480px;
+        }        
+    }
+}
+
+.popup-image {
+    background-image: url(../images/illustration-hero.svg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.popup-header {
+    padding-top: 1rem;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.popup-paragraph {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding: 1rem 7rem;
+}
+
+.popup-plan {
+    background-color: hsl(224, 23%, 55%, .1);
+    border-radius: 10px;
+    display: flex;  
+    align-items: center;
+    gap: 1em;
+    padding: .5rem;
+    margin: 1rem 6rem;    
+}
+
+.popup-plan-info {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.popup-plan-text {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;   
+}
+
+.popup-plan-price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.popup-plan-btnchange {
+    margin-left: auto;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+
+.popup-btnpay {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;    
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 6rem;
+    padding: 1rem;    
+}
+
+.popup-btnpay:hover {
+    background-color: hsl(245, 75%, 52%, .5);
+}
+.btn-cancel {
+    padding: 0 0 2rem 0;
+}
+
+.popup-btncancel {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;       
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin: 0 13rem;
+    padding: 0;
+}
+
+.popup-btncancel:hover {
+    color: hsl(224, 23%, 55%, .5);
+
+}
+
+.attribution {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+
